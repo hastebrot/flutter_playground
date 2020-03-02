@@ -93,6 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               'You have pushed the button this many times:',
+              style: TextStyle(fontSize: 20),
             ),
             Text(
               '$_counter',
